@@ -2,7 +2,7 @@
   "name": "saferent",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://<Vanleen>.github.io/SafeRent",
+  "homepage": "https://Vanleen.github.io/SafeRent",
   "dependencies": {
     "firebase": "^10.12.0",
     "framer-motion": "^11.2.4",
