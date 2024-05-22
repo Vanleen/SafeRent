@@ -1,0 +1,107 @@
+/* src/components/LeftSection.css */
+
+/* Mobile-first styles */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.left-section h1 {
+  margin-bottom: 10px;
+}
+
+.left-section p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+}
+
+.login-form label {
+  margin-bottom: 5px;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.forgot-password {
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+
+.sign-in-button,
+.social-login {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 350px;
+  box-sizing: border-box;
+}
+
+.sign-in-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.social-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-login img {
+  margin-right: 10px;
+}
+
+.or-divider {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.sign-up-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styles pour les écrans plus grands */
+@media (min-width: 768px) {
+  .left-section,
+  .right-section {
+    flex: 1;
+    max-width: 50%;
+    height: 100vh;
+    padding: 40px;
+  }
+
+  .left-section {
+    background: white;
+  }
+
+  .login-form {
+    width: 350px;
+  }
+
+  .right-section .logo {
+    font-size: 3rem;
+  }
+}

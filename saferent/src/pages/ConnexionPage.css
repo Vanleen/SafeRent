@@ -1,0 +1,16 @@
+/* src/pages/ConnexionPage.css */
+
+/* Mobile-first styles */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Styles pour les écrans plus grands */
+@media (min-width: 768px) {
+  .login-container {
+    flex-direction: row;
+  }
+}

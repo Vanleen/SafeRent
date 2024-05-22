@@ -1,0 +1,16 @@
+/* src/pages/SignupPage.css */
+
+/* Mobile-first styles */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Styles pour les écrans plus grands */
+  @media (min-width: 768px) {
+    .signup-container {
+      flex-direction: row;
+    }
+  }
+  

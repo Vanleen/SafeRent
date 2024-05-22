@@ -1,0 +1,114 @@
+/* src/components/LeftSectionSignup.css */
+
+/* Mobile-first styles */
+.left-section-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.left-section-signup h1 {
+  margin-bottom: 10px;
+}
+
+.left-section-signup p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.name-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.signup-form label {
+  margin-bottom: 5px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form input[type="tel"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+.sign-up-button,
+.social-login {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 350px;
+  box-sizing: border-box;
+}
+
+.sign-up-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.social-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-login img {
+  margin-right: 10px;
+}
+
+.sign-up-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styles pour les écrans plus grands */
+@media (min-width: 768px) {
+  .left-section-signup {
+    max-width: 400px;
+  }
+
+  .name-container {
+    flex-direction: row;
+  }
+
+  .name-field {
+    width: 48%;
+  }
+}
