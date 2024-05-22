@@ -21,3 +21,29 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Exclude system files and directories
+AppData/
+Application Data/
+Cookies/
+Local Settings/
+Menu Démarrer/
+Mes documents/
+Modèles/
+Recent/
+SendTo/
+Voisinage d'impression/
+Voisinage réseau/
+ntuser.dat*
+*.log
+*.tmp
+
+# VSCode extensions
+.vscode/extensions/
+
+# Node modules
+node_modules/
+
+# Unwanted directories
+Desktop/proman-1.0.0/
+room08-10/
